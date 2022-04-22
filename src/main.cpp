@@ -1,7 +1,7 @@
-#include <Arduino.h>
+#include "configuracoes.h"
 
 void setup() {
-  
+ 
 }
 
 void loop() {
