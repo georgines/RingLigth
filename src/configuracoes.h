@@ -1,13 +1,13 @@
 #pragma once
 #include "Arduino.h"
 
-const int ENTRADA_BOTAO_LIGAR = 2;
-const int ENTRADA_BOTAO_TROCA_CORES = 4;
-const int ENTRADA_BOTAO_DIMINUIR_LUZ = 7;
-const int ENTRADA_BOTAO_AUMENTAR_LUZ = 8;
+const int ENTRADA_BOTAO_LIGAR = 27;
+const int ENTRADA_BOTAO_TROCA_CORES = 26;
+const int ENTRADA_BOTAO_DIMINUIR_LUZ = 14;
+const int ENTRADA_BOTAO_AUMENTAR_LUZ = 32;
 
-const int SAIDA_LUZ_BRANCA = 3;
-const int SAIDA_LUZ_AMARELA = 11;
+const int SAIDA_LUZ_BRANCA = 25;
+const int SAIDA_LUZ_AMARELA = 33;
 
 const int INTENSIDADE_INICIAL = 50;
 const int INTENSIDADE_ZERO = 0;

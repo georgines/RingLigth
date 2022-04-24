@@ -7,8 +7,8 @@ BotaoPressao BotaoDiminuir(ENTRADA_BOTAO_DIMINUIR_LUZ);
 BotaoPressao BotaoAumentar(ENTRADA_BOTAO_AUMENTAR_LUZ);
 BotaoPressao BotaoTrocaCores(ENTRADA_BOTAO_TROCA_CORES);
 
-Luz LuzBranca(SAIDA_LUZ_BRANCA);
-Luz LuzAmarela(SAIDA_LUZ_AMARELA);
+Luz LuzBranca(SAIDA_LUZ_BRANCA, 0);
+Luz LuzAmarela(SAIDA_LUZ_AMARELA, 1);
 
 bool ring_light_ligado = false;
 int luz_selecionada = LUZ_BRANCA;
