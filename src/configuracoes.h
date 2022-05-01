@@ -9,6 +9,9 @@ const int ENTRADA_BOTAO_AUMENTAR_LUZ = 32;
 const int SAIDA_LUZ_BRANCA = 25;
 const int SAIDA_LUZ_AMARELA = 33;
 
+const int CANAL_LUZ_BRANCA = 0;
+const int CANAL_LUZ_AMARELA = 1;
+
 const int INTENSIDADE_INICIAL = 50;
 const int INTENSIDADE_ZERO = 0;
 const int INTENSIDADE_MINIMA = 10;
@@ -18,3 +21,7 @@ const int VALOR_INCREMENTO_INTENSIDADE = 10;
 const int LUZ_BRANCA = 0;
 const int LUZ_AMARELA = 1;
 const int LUZ_BRANCA_E_AMARELA = 2;
+
+bool ring_light_ligado = false;
+int luz_selecionada = LUZ_BRANCA;
+int intensidade_da_luz_atual = INTENSIDADE_ZERO;

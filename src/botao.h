@@ -5,9 +5,9 @@ class BotaoPressao
 
 private:
     bool trava = false;
-    bool estado_botao_pressionado = false;
+    // bool estado_botao_pressionado = false;
     int pino_do_botao = 0;
-    unsigned long tempo_atual = 0;
+    // unsigned long tempo_atual = 0;
     unsigned long tempo_anterior = 0;
     unsigned long tempo_de_trava = 0;
 
